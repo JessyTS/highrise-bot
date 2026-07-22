@@ -1,0 +1,93 @@
+{
+  "settings": {
+    "commands": {
+      "prefix": "!",
+      "directEmotes": true,
+      "directEmoteCooldownMs": 800,
+      "maintenance": false,
+      "maintenanceMessage": "Le bot est temporairement en maintenance. Réessaie plus tard.",
+      "adminBypassCooldown": true,
+      "disabled": [],
+      "disabledCategories": [],
+      "cooldowns": {},
+      "cooldownScopes": {},
+      "replyModes": {},
+      "permissions": {},
+      "logModes": {}
+    },
+    "emoteLoops": {
+      "transitionLeadMs": 250,
+      "minimumIntervalMs": 800,
+      "retryDelayMs": 1200,
+      "maxConsecutiveErrors": 3
+    },
+    "tips": {
+      "enabled": false,
+      "maxPerTip": 100,
+      "dailyLimit": 500,
+      "perAdminDailyLimit": 500,
+      "perRecipientDailyLimit": 250,
+      "confirmationSeconds": 60,
+      "splitEnabled": true,
+      "bulkEnabled": false,
+      "bulkMaxRecipients": 20,
+      "sendDelayMs": 400
+    },
+    "adminLogs": {
+      "enabled": true,
+      "commands": true,
+      "directEmotes": true,
+      "automaticActions": true,
+      "deniedAttempts": true,
+      "errors": true,
+      "includeArguments": true,
+      "storeHistory": true,
+      "maxHistory": 2000
+    },
+    "actions": {
+      "bulkMaxUsers": 200,
+      "bulkDelayMs": 400
+    },
+    "events": {
+      "enabled": true,
+      "public": false,
+      "whisper": true,
+      "emoteCooldownMs": 15000,
+      "types": {
+        "join": true,
+        "leave": true,
+        "emote": true,
+        "tip": true,
+        "moderation": true
+      }
+    },
+    "welcome": {
+      "enabled": true,
+      "message": "Bienvenue @{user} ! Tape {prefix}help pour voir les commandes."
+    },
+    "antiSpam": {
+      "enabled": false,
+      "maxMessages": 7,
+      "windowMs": 8000,
+      "muteSeconds": 60
+    },
+    "wordFilter": {
+      "enabled": false,
+      "muteSeconds": 60,
+      "words": []
+    },
+    "warnLimit": 3
+  },
+  "warnings": {},
+  "moderationLog": [],
+  "knownUsers": {},
+  "botAdmins": [],
+  "savedPositions": {},
+  "outfitPresets": {},
+  "tipLog": [],
+  "actionLog": [],
+  "botState": {
+    "position": null,
+    "emote": null
+  }
+}
